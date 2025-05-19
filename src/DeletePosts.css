@@ -1,0 +1,56 @@
+.delete-posts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.post-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.post-image {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}
